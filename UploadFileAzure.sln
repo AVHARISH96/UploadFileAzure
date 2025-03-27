@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadFileAzure", "UploadFi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UploadToCosmosDB", "UploadToCosmosDB\UploadToCosmosDB.csproj", "{4485BC7C-9393-471E-A0EF-69249CA11D40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownloadFileFromCosmosDB", "DownloadFileFromCosmosDB\DownloadFileFromCosmosDB.csproj", "{F6A982A7-BF3D-4352-9922-1D3C9BE22B62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4485BC7C-9393-471E-A0EF-69249CA11D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4485BC7C-9393-471E-A0EF-69249CA11D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4485BC7C-9393-471E-A0EF-69249CA11D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6A982A7-BF3D-4352-9922-1D3C9BE22B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A982A7-BF3D-4352-9922-1D3C9BE22B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A982A7-BF3D-4352-9922-1D3C9BE22B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A982A7-BF3D-4352-9922-1D3C9BE22B62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
